@@ -28,8 +28,8 @@ const handleDeleteContact = (id) => {
 };
 
 const visibleContacts = contacts.filter((contact) =>
-contact.name.ToLowerCase().includes(filter.toLowerCase())
-);
+    contact.name.toLowerCase().includes(filter.toLowerCase())
+  );
 
 return (
     <div> 

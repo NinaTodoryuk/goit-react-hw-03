@@ -1,4 +1,4 @@
-import css from './SearchList.module.css'
+import css from './SearchBox.module.css'
 
 export default function Filter({value, onFilter}) {
     return (
